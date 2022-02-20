@@ -1,6 +1,6 @@
 # Programm in python - Algorithm Caesar Cipher
 
-class Cifrado:
+class Ciphering:
 
     def __init__(self, posiciones):
         self.posiciones = posiciones
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     mensaje = input('---> ')
     rotaciones = 3
 
-    proceso_codificar = Cifrado(rotaciones)
+    proceso_codificar = Ciphering(rotaciones)
 
     msj_codificar = proceso_codificar.codificar(mensaje)
     msj_decodificado = proceso_codificar.decodificar(msj_codificar)
